@@ -2,7 +2,8 @@ name: Auto-update repos on profile
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours — repos/activity/stats refresh on their own
+    # every 2 hours — redundant ticks so a skipped one leaves no gap. Runs 24/7.
+    - cron: "0 */2 * * *"
   workflow_dispatch:          # run manually anytime
   push:
     branches: [main]
@@ -49,8 +50,6 @@ jobs:
             fi
             echo "push rejected; syncing to latest and regenerating (attempt $attempt)"
             git fetch origin main
-            git reset --soft origin/main   # keep working tree, move base to latest
-            git checkout -- README.md 2>/dev/null || true
             git reset --hard origin/main   # clean slate from latest
             gen                            # regenerate from live data on top of latest
             if git diff --quiet -- README.md; then
@@ -58,3 +57,12 @@ jobs:
             fi
           done
           echo "could not push after retries; will self-heal next run"; exit 0
+
+      # Guarantees GitHub never disables this scheduled workflow (the 60-day rule).
+      # Belt-and-suspenders on top of the timestamp commit above.
+      - name: Keep the schedule alive forever
+        if: always()
+        continue-on-error: true
+        uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          use_api: true
