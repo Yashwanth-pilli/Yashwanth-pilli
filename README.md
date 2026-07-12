@@ -125,6 +125,33 @@ const yashwanth = {
 
 <br/>
 
+<!-- ══════════════════════ FULL VAULT (every repo) ══════════════════════ -->
+<h2 align="center">🗂️ &nbsp;The Full Vault</h2>
+<p align="center"><i>everything I've shipped — nothing hidden</i></p>
+
+<div align="center">
+
+<a href="https://github.com/Yashwanth-pilli/ILLIP-AI">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=ILLIP-AI&theme=react&bg_color=0d1117&title_color=8b7bff&icon_color=8b7bff&border_color=8b7bff" alt="ILLIP-AI"/>
+</a>
+<a href="https://github.com/Yashwanth-pilli/quantumshield-biodefense-os">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=quantumshield-biodefense-os&theme=react&bg_color=0d1117&title_color=00e676&icon_color=00e676&border_color=00e676" alt="QuantumShield"/>
+</a>
+<a href="https://github.com/Yashwanth-pilli/bugbusters">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=bugbusters&theme=react&bg_color=0d1117&title_color=6d5efc&icon_color=6d5efc&border_color=6d5efc&show_owner=true" alt="bugbusters"/>
+</a>
+<a href="https://github.com/Yashwanth-pilli/web_tutor_env">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=web_tutor_env&theme=react&bg_color=0d1117&title_color=c9d1d9&icon_color=c9d1d9&border_color=c9d1d9&show_owner=true" alt="web_tutor_env"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/Yashwanth-pilli?tab=repositories"><img src="https://img.shields.io/badge/See%20All%20Repositories%20%E2%86%92-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="all repos"/></a>
+
+</div>
+
+<br/>
+
 <!-- ══════════════════════ STATS ══════════════════════ -->
 <h2 align="center">📊 &nbsp;The Numbers</h2>
 
