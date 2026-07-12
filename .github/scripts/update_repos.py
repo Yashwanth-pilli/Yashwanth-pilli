@@ -42,10 +42,9 @@ def all_repos():
     return out
 
 
-def card(repo, color):
+def card(repo, color, icon):
     name = repo["name"]
     desc = (repo.get("description") or "").strip() or "_no description yet_"
-    fork = " · 🍴 fork" if repo.get("fork") else ""
     lc = (f'https://img.shields.io/github/last-commit/{OWNER}/{name}'
           f'?style=flat-square&color={color}&labelColor=0d1117')
     tl = (f'https://img.shields.io/github/languages/top/{OWNER}/{name}'
@@ -56,7 +55,7 @@ def card(repo, color):
            f'?style=for-the-badge&logo=github&logoColor=white')
     url = repo["html_url"]
     return (
-        f'\n### 🌍 &nbsp;{name}{fork}\n\n'
+        f'\n### {icon} &nbsp;{name}\n\n'
         f'{desc}\n\n'
         f'<img src="{star}" alt="stars"/> '
         f'<img src="{tl}" alt="lang"/> '
@@ -65,10 +64,21 @@ def card(repo, color):
     )
 
 
-def build(repos):
-    repos = [r for r in repos if r["name"].lower() not in HEROES]
-    if not repos:
-        return "<!-- no extra repos yet -->"
+def order(repos):
+    """Deterministic, meaningful order: most stars first, then most recently
+    updated, then name. Same input always yields the same layout."""
+    return sorted(
+        repos,
+        key=lambda r: (
+            -(r.get("stargazers_count") or 0),
+            # pushed_at desc: invert by negating the char codes via reverse cmp
+            tuple(-ord(c) for c in (r.get("pushed_at") or "")),
+            r["name"].lower(),
+        ),
+    )
+
+
+def grid(repos, icon):
     rows = []
     for i in range(0, len(repos), 2):
         pair = repos[i:i + 2]
@@ -76,12 +86,27 @@ def build(repos):
         for j, repo in enumerate(pair):
             color = COLORS[(i + j) % len(COLORS)]
             cells += (f'<td width="50%" valign="top" align="center">\n'
-                      f'{card(repo, color)}\n</td>\n')
-        if len(pair) == 1:  # pad so single card stays half-width
+                      f'{card(repo, color, icon)}\n</td>\n')
+        if len(pair) == 1:  # pad so a lone card stays half-width, never full
             cells += '<td width="50%"></td>\n'
         rows.append(f'<tr>\n{cells}</tr>')
-    table = '<table width="100%">\n' + "\n".join(rows) + '\n</table>'
-    return f'<h3 align="center">🗺️ MORE WORLDS</h3>\n\n{table}'
+    return '<table width="100%">\n' + "\n".join(rows) + '\n</table>'
+
+
+def build(repos):
+    repos = [r for r in repos if r["name"].lower() not in HEROES]
+    originals = order([r for r in repos if not r.get("fork")])
+    forks = order([r for r in repos if r.get("fork")])
+    if not originals and not forks:
+        return "<!-- no extra repos yet -->"
+    parts = []
+    if originals:
+        parts.append('<h3 align="center">🚀 MORE PROJECTS</h3>\n\n'
+                     + grid(originals, "🌍"))
+    if forks:
+        parts.append('<h3 align="center">🍴 FORKS &amp; EXPERIMENTS</h3>\n\n'
+                     + grid(forks, "🔧"))
+    return "\n\n<br/>\n\n".join(parts)
 
 
 def main():

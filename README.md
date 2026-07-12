@@ -127,13 +127,13 @@ A real-time **cybersecurity dashboard** — mission-control for biodefense threa
 <!-- WORLDS 3+ are auto-generated from your repos by .github/workflows/update-repos.yml -->
 <!-- Do not hand-edit between the markers below; the workflow overwrites it. -->
 <!-- AUTO-REPOS:START -->
-<h3 align="center">🗺️ MORE WORLDS</h3>
+<h3 align="center">🍴 FORKS &amp; EXPERIMENTS</h3>
 
 <table width="100%">
 <tr>
 <td width="50%" valign="top" align="center">
 
-### 🌍 &nbsp;web_tutor_env · 🍴 fork
+### 🔧 &nbsp;web_tutor_env
 
 _no description yet_
 
@@ -144,7 +144,7 @@ _no description yet_
 </td>
 <td width="50%" valign="top" align="center">
 
-### 🌍 &nbsp;bugbusters · 🍴 fork
+### 🔧 &nbsp;bugbusters
 
 _no description yet_
 
