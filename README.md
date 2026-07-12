@@ -77,7 +77,7 @@ LCK ████████░░  ships on first try (mostly)
 
 <!-- ══════════════════════ WORLDS / QUESTS ══════════════════════ -->
 <h2 align="center">🗺️ &nbsp;WORLDS I'VE BUILT</h2>
-<p align="center"><i>four worlds. each its own universe. enter any door.</i></p>
+<p align="center"><i>each one its own universe. enter any door.</i></p>
 
 <br/>
 
@@ -129,41 +129,38 @@ A real-time **cybersecurity dashboard** — mission-control for biodefense threa
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00e676,100:6d5efc&height=2&section=header" alt="divider"/>
 
-<!-- WORLD 3 + 4 -->
+<!-- WORLDS 3+ are auto-generated from your repos by .github/workflows/update-repos.yml -->
+<!-- Do not hand-edit between the markers below; the workflow overwrites it. -->
+<!-- AUTO-REPOS:START -->
+<h3 align="center">🗺️ MORE WORLDS</h3>
+
 <table width="100%">
 <tr>
 <td width="50%" valign="top" align="center">
 
-### 🐛 &nbsp;WORLD 3 — bugbusters
+### 🌍 &nbsp;web_tutor_env · 🍴 fork
 
-**`squashing bugs, one PR at a time`**
+_no description yet_
 
-Collaborative bug-hunting playground.
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/web_tutor_env?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/web_tutor_env?style=flat-square&color=8b7bff&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/web_tutor_env?style=flat-square&color=8b7bff&labelColor=0d1117" alt="commit"/>
 
-![Repo](https://img.shields.io/badge/Collab-6d5efc?style=flat-square&logo=git&logoColor=fff)
-<br/>
-<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/bugbusters?style=flat-square&color=6d5efc&labelColor=0d1117" alt="commit"/>
-
-<a href="https://github.com/Yashwanth-pilli/bugbusters"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-6d5efc?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/web_tutor_env"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
 <td width="50%" valign="top" align="center">
 
-### 📘 &nbsp;WORLD 4 — web_tutor_env
+### 🌍 &nbsp;bugbusters · 🍴 fork
 
-**`learning lab for the web`**
+_no description yet_
 
-Sandbox for web experiments & tutorials.
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/bugbusters?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/bugbusters?style=flat-square&color=00e676&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/bugbusters?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
 
-![Repo](https://img.shields.io/badge/Sandbox-c9d1d9?style=flat-square&logo=html5&logoColor=000)
-<br/>
-<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/web_tutor_env?style=flat-square&color=c9d1d9&labelColor=0d1117" alt="commit"/>
-
-<a href="https://github.com/Yashwanth-pilli/web_tutor_env"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-c9d1d9?style=for-the-badge&logo=github&logoColor=black" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/bugbusters"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00e676?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
 </tr>
 </table>
+<!-- AUTO-REPOS:END -->
 
 <div align="center">
 <a href="https://github.com/Yashwanth-pilli?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%97%BA%EF%B8%8F%20SEE%20ALL%20WORLDS%20%E2%86%92-0d1117?style=for-the-badge&logo=github&logoColor=8b7bff" alt="all"/></a>
