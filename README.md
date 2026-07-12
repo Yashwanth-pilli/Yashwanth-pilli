@@ -163,6 +163,37 @@ _no description yet_
 
 <br/>
 
+<!-- ══════════════════════ RECENT ACTIVITY (auto) ══════════════════════ -->
+<h2 align="center">📡 &nbsp;RECENT ACTIVITY</h2>
+
+<!-- AUTO-ACTIVITY:START -->
+- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _3m ago_
+- ⭐ starred `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _56m ago_
+- ✨ created branch in `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _1h ago_
+- 🔨 pushed to `Yashwanth-pilli/ILLIP-AI` &nbsp;·&nbsp; _13h ago_
+
+<sub>⟳ auto-refreshed 12 Jul 2026, 08:19 UTC</sub>
+<!-- AUTO-ACTIVITY:END -->
+
+<br/>
+
+<!-- ══════════════════════ BY THE NUMBERS (auto) ══════════════════════ -->
+<h2 align="center">📊 &nbsp;BY THE NUMBERS</h2>
+
+<!-- AUTO-STATS:START -->
+<div align="center">
+
+![Public%20Repos](https://img.shields.io/badge/Public%20Repos-5-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%203-00e676?style=for-the-badge&labelColor=0d1117)
+
+**Top languages across my repos**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-1%20repo-8b7bff?style=for-the-badge&labelColor=0d1117) ![Python](https://img.shields.io/badge/Python-1%20repo-00e676?style=for-the-badge&labelColor=0d1117)
+
+</div>
+<!-- AUTO-STATS:END -->
+
+<br/>
+
 <!-- ══════════════════════ THE SERPENT (snake) ══════════════════════ -->
 <h2 align="center">🐍 &nbsp;THE SERPENT EATS MY COMMITS</h2>
 

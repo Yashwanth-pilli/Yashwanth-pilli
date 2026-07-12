@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
-"""Regenerate the AUTO-REPOS section of the profile README from the owner's repos.
+"""Self-refresh the profile README from the owner's GitHub data.
 
-Runs in GitHub Actions. Lists every public repo, drops the profile repo and the
-two hand-featured heroes, and renders arcade-style cards between the markers.
-New repos you create show up here on the next scheduled run — no manual work.
+Runs in GitHub Actions. Regenerates three marked sections automatically, so the
+profile keeps itself current — new repos, latest activity, and live totals — with
+zero manual editing:
+  * AUTO-REPOS     — every public repo as a card (originals ranked, forks grouped)
+  * AUTO-ACTIVITY  — the latest public events (pushes, new repos, stars)
+  * AUTO-STATS     — totals: public repos, total stars, top languages
+Live shields (stars/last-commit/followers) and the snake update on their own too.
 """
+import datetime as _dt
 import json, os, re, sys, urllib.request
 
 OWNER = os.environ.get("OWNER", "Yashwanth-pilli")
@@ -109,21 +114,121 @@ def build(repos):
     return "\n\n<br/>\n\n".join(parts)
 
 
+def _ago(iso):
+    if not iso:
+        return ""
+    try:
+        t = _dt.datetime.strptime(iso, "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        return ""
+    s = (_dt.datetime.utcnow() - t).total_seconds()
+    for n, u in ((86400, "d"), (3600, "h"), (60, "m")):
+        if s >= n:
+            return f"{int(s // n)}{u} ago"
+    return "just now"
+
+
+def activity_block():
+    """Latest public events as a tidy list."""
+    try:
+        events = api(f"https://api.github.com/users/{OWNER}/events/public?per_page=30")
+    except Exception:
+        return "<!-- activity unavailable -->"
+    icons = {"PushEvent": "🔨", "CreateEvent": "✨", "WatchEvent": "⭐",
+             "ForkEvent": "🍴", "PullRequestEvent": "🔀", "IssuesEvent": "📌",
+             "ReleaseEvent": "🚀", "PublicEvent": "📢"}
+    lines, seen = [], set()
+    for e in events:
+        t = e.get("type"); repo = e.get("repo", {}).get("name", "")
+        when = _ago(e.get("created_at"))
+        if t == "PushEvent":
+            pl = e.get("payload", {})
+            n = pl.get("size") or len(pl.get("commits", []) or [])
+            txt = (f'pushed {n} commit{"s" if n != 1 else ""} to `{repo}`'
+                   if n else f'pushed to `{repo}`')
+        elif t == "CreateEvent":
+            rt = e.get("payload", {}).get("ref_type", "")
+            txt = f'created {rt} in `{repo}`'
+        elif t == "WatchEvent":
+            txt = f'starred `{repo}`'
+        elif t == "ForkEvent":
+            txt = f'forked `{repo}`'
+        elif t == "PullRequestEvent":
+            txt = f'{e.get("payload", {}).get("action", "updated")} a PR in `{repo}`'
+        elif t == "ReleaseEvent":
+            txt = f'released in `{repo}`'
+        else:
+            continue
+        key = (t, repo, txt)
+        if key in seen:
+            continue
+        seen.add(key)
+        lines.append(f'- {icons.get(t, "•")} {txt} &nbsp;·&nbsp; _{when}_')
+        if len(lines) >= 6:
+            break
+    if not lines:
+        return "<!-- no recent public activity -->"
+    return "\n".join(lines)
+
+
+def stats_block(repos):
+    pub = [r for r in repos if not r.get("private")]
+    total_stars = sum(r.get("stargazers_count") or 0 for r in pub)
+    langs = {}
+    for r in pub:
+        L = r.get("language")
+        if L:
+            langs[L] = langs.get(L, 0) + 1
+    top = sorted(langs.items(), key=lambda kv: (-kv[1], kv[0]))[:6]
+    def badge(label, value, color):
+        label = str(label).replace("-", "--").replace("_", "__").replace(" ", "%20")
+        value = str(value).replace("-", "--").replace("_", "__").replace(" ", "%20")
+        return (f'![{label}](https://img.shields.io/badge/{label}-{value}-{color}'
+                f'?style=for-the-badge&labelColor=0d1117)')
+    out = ['<div align="center">', "",
+           badge("Public%20Repos", len(pub), "8b7bff") + " " +
+           badge("Total%20Stars", f"%E2%98%85%20{total_stars}", "00e676"), ""]
+    if top:
+        colors = ["8b7bff", "00e676", "6d5efc", "ff9100", "00b0ff", "ff4081"]
+        chips = " ".join(badge(name, f"{cnt}%20repo{'s' if cnt != 1 else ''}",
+                               colors[i % len(colors)])
+                         for i, (name, cnt) in enumerate(top))
+        out += ["**Top languages across my repos**", "", chips, ""]
+    out.append("</div>")
+    return "\n".join(out)
+
+
+def replace_section(text, start, end, block):
+    if start not in text or end not in text:
+        return text, False
+    new = re.sub(re.escape(start) + r".*?" + re.escape(end),
+                 f"{start}\n{block}\n{end}", text, flags=re.S)
+    return new, (new != text)
+
+
 def main():
     with open(README, encoding="utf-8") as f:
         text = f.read()
-    if START not in text or END not in text:
-        print("markers missing; nothing to do")
-        return
-    block = build(all_repos())
-    new = re.sub(re.escape(START) + r".*?" + re.escape(END),
-                 f"{START}\n{block}\n{END}", text, flags=re.S)
-    if new == text:
+    repos = all_repos()
+    stamp = _dt.datetime.utcnow().strftime("%d %b %Y, %H:%M UTC")
+
+    changed = False
+    for start, end, block in (
+        (START, END, build(repos)),
+        ("<!-- AUTO-ACTIVITY:START -->", "<!-- AUTO-ACTIVITY:END -->",
+         activity_block() + f"\n\n<sub>⟳ auto-refreshed {stamp}</sub>"),
+        ("<!-- AUTO-STATS:START -->", "<!-- AUTO-STATS:END -->",
+         stats_block(repos)),
+    ):
+        text, did = replace_section(text, start, end, block)
+        changed = changed or did
+
+    if not changed:
         print("no change")
         return
     with open(README, "w", encoding="utf-8") as f:
-        f.write(new)
-    print("README updated")
+        f.write(text)
+    print("README refreshed")
 
 
 if __name__ == "__main__":
