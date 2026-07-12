@@ -33,10 +33,10 @@
 <tr>
 <td valign="top" width="50%">
 
-**`CLASS`** &nbsp;·&nbsp; AI Systems Builder
-**`REGION`** &nbsp;·&nbsp; Local-First Universe 🌌
-**`WEAPON`** &nbsp;·&nbsp; Python + FastAPI + React
-**`PASSIVE`** &nbsp;·&nbsp; your data never leaves your device
+**`CLASS`** &nbsp;·&nbsp; AI Systems Builder <br>
+**`REGION`** &nbsp;·&nbsp; Local-First Universe 🌌 <br>
+**`WEAPON`** &nbsp;·&nbsp; Python + FastAPI + React <br>
+**`PASSIVE`** &nbsp;·&nbsp; data never leaves your device <br>
 **`QUEST`** &nbsp;·&nbsp; an AI company inside one laptop
 
 </td>
