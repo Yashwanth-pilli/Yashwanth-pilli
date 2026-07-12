@@ -2,7 +2,7 @@ name: Auto-update repos on profile
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours — new repos appear on their own
+    - cron: "0 */3 * * *"   # every 3 hours — repos/activity/stats refresh on their own
   workflow_dispatch:          # run manually anytime
   push:
     branches: [main]
@@ -10,30 +10,51 @@ on:
       - ".github/scripts/update_repos.py"
       - ".github/workflows/update-repos.yml"
 
+# never let two runs push at once
+concurrency:
+  group: profile-refresh
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
       - uses: actions/checkout@v4
 
-      - name: Regenerate repo cards
+      - name: Refresh profile sections (race-proof)
         env:
           OWNER: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python .github/scripts/update_repos.py
-
-      - name: Commit if changed
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet -- README.md; then
-            git add README.md
-            git commit -m "auto: refresh repo cards on profile"
-            git push
-          else
-            echo "no changes to commit"
+
+          gen() { python .github/scripts/update_repos.py; }
+
+          gen
+          if git diff --quiet -- README.md; then
+            echo "no changes"; exit 0
           fi
+
+          for attempt in 1 2 3 4; do
+            git add README.md
+            git commit -m "auto: refresh profile (repos/activity/stats)" || true
+            if git push; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            echo "push rejected; syncing to latest and regenerating (attempt $attempt)"
+            git fetch origin main
+            git reset --soft origin/main   # keep working tree, move base to latest
+            git checkout -- README.md 2>/dev/null || true
+            git reset --hard origin/main   # clean slate from latest
+            gen                            # regenerate from live data on top of latest
+            if git diff --quiet -- README.md; then
+              echo "nothing to update after sync"; exit 0
+            fi
+          done
+          echo "could not push after retries; will self-heal next run"; exit 0
