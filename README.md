@@ -1,179 +1,178 @@
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--                    YASHWANTH PILLI · PROFILE README                       -->
+<!--            YASHWANTH PILLI · PROFILE README  (arcade edition)              -->
+<!--   image sources kept RELIABLE: capsule-render, typing-svg, shields.io,    -->
+<!--   skillicons, komarev, raw snake. NO github-readme-stats (it 503s).       -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <a href="#">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6d5efc,100:8b7bff&height=220&section=header&text=YASHWANTH%20PILLI&fontColor=ffffff&fontSize=54&fontAlignY=38&desc=I%20build%20AI%20that%20runs%20on%20YOUR%20machine%20%E2%80%94%20no%20cloud%20leash&descAlignY=60&descSize=18&animation=fadeIn" alt="header"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:6d5efc,100:8b7bff&height=230&section=header&text=YASHWANTH%20PILLI&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=%E2%96%B6%20PRESS%20START%20%C2%B7%20I%20build%20AI%20that%20runs%20on%20YOUR%20machine&descAlignY=58&descSize=17&animation=fadeIn" alt="header"/>
 </a>
 
 <div align="center">
 
-<!-- typing tagline -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=900&color=8B7BFF&center=true&vCenter=true&width=680&lines=Local-first+AI+Systems+Engineer;Turning+laptops+into+private+AI+companies;Python+%E2%80%A2+FastAPI+%E2%80%A2+React+%E2%80%A2+Ollama;Cybersecurity+dashboards+%26+agent+crews;I+ship+things+that+work+offline." alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=8B7BFF&center=true&vCenter=true&width=720&lines=Local-first+AI+Systems+Engineer;Turning+laptops+into+private+AI+companies;Cybersecurity+dashboards+%26+agent+crews;LEVEL+99+%C2%B7+still+grinding+XP;I+ship+things+that+work+offline." alt="typing"/>
 </a>
 
 <br/>
 
-<!-- quick badges row -->
-<img src="https://komarev.com/ghpvc/?username=Yashwanth-pilli&label=Profile%20Views&color=8b7bff&style=for-the-badge" alt="views"/>
-<a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/Email-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
-<a href="https://github.com/Yashwanth-pilli?tab=repositories"><img src="https://img.shields.io/badge/Repos-0d1117?style=for-the-badge&logo=github&logoColor=8b7bff" alt="repos"/></a>
+<img src="https://komarev.com/ghpvc/?username=Yashwanth-pilli&label=PLAYERS%20MET&color=8b7bff&style=for-the-badge" alt="views"/>
+<img src="https://img.shields.io/github/followers/Yashwanth-pilli?label=FOLLOWERS&style=for-the-badge&color=6d5efc&labelColor=0d1117&logo=github" alt="followers"/>
+<a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+<a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/EMAIL-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 
 </div>
 
 <br/>
 
-<!-- ────────────────────────── WHO ────────────────────────── -->
-<div align="center">
+<!-- ══════════════════════ PLAYER CARD ══════════════════════ -->
+<h2 align="center">🎮 &nbsp;PLAYER CARD</h2>
 
-```ts
-const yashwanth = {
-  role:      "AI Systems Builder",
-  obsession: "local-first — your data never leaves your device",
-  building:  "ILLIP AI · an AI company that lives inside one laptop",
-  stack:     ["Python", "FastAPI", "React", "Ollama", "JavaScript"],
-  belief:    "the best cloud is the one you don't need",
-  status:    "shipping ▓▓▓▓▓▓▓░░░ 70%  (always)",
-};
+<div align="center">
+<table>
+<tr>
+<td valign="top" width="50%">
+
+**`CLASS`** &nbsp;·&nbsp; AI Systems Builder
+**`REGION`** &nbsp;·&nbsp; Local-First Universe 🌌
+**`WEAPON`** &nbsp;·&nbsp; Python + FastAPI + React
+**`PASSIVE`** &nbsp;·&nbsp; your data never leaves your device
+**`QUEST`** &nbsp;·&nbsp; an AI company inside one laptop
+
+</td>
+<td valign="top" width="50%">
+
+```text
+HP  ██████████  offline & unstoppable
+MP  █████████░  local models loaded
+XP  ███████░░░  LVL 99 · always grinding
+LCK ████████░░  ships on first try (mostly)
 ```
 
+</td>
+</tr>
+</table>
 </div>
 
 <br/>
 
-<!-- ────────────────────── ARSENAL / STACK ────────────────────── -->
-<h2 align="center">🧰 &nbsp;Arsenal</h2>
+<!-- ══════════════════════ SKILL TREE ══════════════════════ -->
+<h2 align="center">🌳 &nbsp;SKILL TREE</h2>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,react,js,html,css,nodejs,vite,git,github,vscode,windows,sqlite,tailwind&perline=7" alt="stack"/>
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,js,html,css,nodejs,vite,tailwind,sqlite,git,github,vscode,windows&perline=7" alt="skills"/>
 
 <br/><br/>
 
 ![Ollama](https://img.shields.io/badge/Ollama-000?style=flat-square&logo=ollama&logoColor=white)
 ![Local-First](https://img.shields.io/badge/Local--First-8b7bff?style=flat-square&logo=raspberrypi&logoColor=white)
-![LLMs](https://img.shields.io/badge/LLM%20Agents-6d5efc?style=flat-square&logo=openai&logoColor=white)
+![LLM Agents](https://img.shields.io/badge/LLM%20Agents-6d5efc?style=flat-square&logo=openai&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-00e676?style=flat-square&logo=hackthebox&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-00e676?style=flat-square&logo=hackthebox&logoColor=black)
 
 </div>
 
 <br/>
 
-<!-- ══════════════════════ PROJECTS ══════════════════════ -->
-<h2 align="center">🚀 &nbsp;Things I've Built</h2>
-<p align="center"><i>each one its own world — not a wrapper in sight</i></p>
+<!-- ══════════════════════ WORLDS / QUESTS ══════════════════════ -->
+<h2 align="center">🗺️ &nbsp;WORLDS I'VE BUILT</h2>
+<p align="center"><i>four worlds. each its own universe. enter any door.</i></p>
 
 <br/>
 
-<!-- ───── PROJECT 1 · ILLIP AI (violet aurora) ───── -->
+<!-- WORLD 1 -->
+<div align="center">
+
+### 🟣 &nbsp;WORLD 1 — ILLIP&nbsp;AI
+
+**`your AI company, in your device`**
+
+An entire AI company that lives inside one laptop — chat, an autonomous **agent crew**, long-term **memory**, a governance gate that asks before it acts, and a **model store sized to your exact hardware**. Runs fully offline on Ollama; flip `/cloud on` for free big-model power. Not a wrapper — a world.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=fff)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=fff)
+![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61dafb)
+![Ollama](https://img.shields.io/badge/Ollama-000?style=flat-square&logo=ollama&logoColor=fff)
+
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/>
+<img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/>
+<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/languages/code-size/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=8b7bff&labelColor=0d1117" alt="size"/>
+
+<a href="https://github.com/Yashwanth-pilli/ILLIP-AI"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER%20WORLD-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:8b7bff,100:00e676&height=2&section=header" alt="divider"/>
+
+<!-- WORLD 2 -->
+<div align="center">
+
+### 🟢 &nbsp;WORLD 2 — QuantumShield&nbsp;BioDefense&nbsp;OS
+
+**`live cyber command center`**
+
+A real-time **cybersecurity dashboard** — mission-control for biodefense threat monitoring. Live telemetry, alert surfaces, operator-grade layout. Looks like the war room from a hacker film, and actually updates in real time.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=000)
+![Dashboard](https://img.shields.io/badge/Live%20Dashboard-00e676?style=flat-square&logo=grafana&logoColor=000)
+![Security](https://img.shields.io/badge/Security%20UI-ff1744?style=flat-square&logo=hackthebox&logoColor=fff)
+
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/>
+<img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/>
+<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
+
+<a href="https://github.com/Yashwanth-pilli/quantumshield-biodefense-os"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER%20WORLD-00e676?style=for-the-badge&logo=github&logoColor=black" alt="enter"/></a>
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00e676,100:6d5efc&height=2&section=header" alt="divider"/>
+
+<!-- WORLD 3 + 4 -->
 <table width="100%">
 <tr>
-<td width="55%" valign="top">
+<td width="50%" valign="top" align="center">
 
-### 🟣 &nbsp;ILLIP&nbsp;AI &nbsp;·&nbsp; *your AI company, in your device*
+### 🐛 &nbsp;WORLD 3 — bugbusters
 
-> A **local-first AI platform**: chat, an autonomous **agent crew**, long-term **memory**, governance that asks before it acts, and a **model store sized to your exact hardware**. Runs fully offline on Ollama — flip `/cloud on` for free big-model boosts. Not a wrapper. A whole company in one laptop.
+**`squashing bugs, one PR at a time`**
 
-`Python` &nbsp;·&nbsp; `FastAPI` &nbsp;·&nbsp; `React + Vite` &nbsp;·&nbsp; `Ollama` &nbsp;·&nbsp; `Playwright`
+Collaborative bug-hunting playground.
 
-**Highlights →** supervised agent gate · violet glass UI · slash-command tools · `/cloud` free-token routing · self-healing setup
+![Repo](https://img.shields.io/badge/Collab-6d5efc?style=flat-square&logo=git&logoColor=fff)
+<br/>
+<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/bugbusters?style=flat-square&color=6d5efc&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/ILLIP-AI"><img src="https://img.shields.io/badge/Open%20Repo-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="illip"/></a>
+<a href="https://github.com/Yashwanth-pilli/bugbusters"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-6d5efc?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
-<td width="45%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<a href="https://github.com/Yashwanth-pilli/ILLIP-AI">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=ILLIP-AI&theme=react&bg_color=0d1117&title_color=8b7bff&icon_color=8b7bff&border_color=8b7bff&hide_border=false" alt="ILLIP-AI card"/>
-</a>
+### 📘 &nbsp;WORLD 4 — web_tutor_env
+
+**`learning lab for the web`**
+
+Sandbox for web experiments & tutorials.
+
+![Repo](https://img.shields.io/badge/Sandbox-c9d1d9?style=flat-square&logo=html5&logoColor=000)
+<br/>
+<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/web_tutor_env?style=flat-square&color=c9d1d9&labelColor=0d1117" alt="commit"/>
+
+<a href="https://github.com/Yashwanth-pilli/web_tutor_env"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-c9d1d9?style=for-the-badge&logo=github&logoColor=black" alt="enter"/></a>
 
 </td>
 </tr>
 </table>
 
-<!-- gradient divider -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:8b7bff,100:00e676&height=3&section=header" alt="divider"/>
-
-<!-- ───── PROJECT 2 · QUANTUMSHIELD (neon cyber) ───── -->
-<table width="100%">
-<tr>
-<td width="45%" valign="top">
-
-<a href="https://github.com/Yashwanth-pilli/quantumshield-biodefense-os">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=quantumshield-biodefense-os&theme=radical&bg_color=0d1117&title_color=00e676&icon_color=00e676&border_color=00e676&hide_border=false" alt="QuantumShield card"/>
-</a>
-
-</td>
-<td width="55%" valign="top">
-
-### 🟢 &nbsp;QuantumShield&nbsp;BioDefense&nbsp;OS &nbsp;·&nbsp; *live cyber command center*
-
-> A **real-time cybersecurity dashboard** — a mission-control OS for biodefense threat monitoring. Live feeds, alert surfaces, and a slick operator UI. Built to look like the war room from a hacker film, and actually update in real time.
-
-`JavaScript` &nbsp;·&nbsp; `Live Dashboard` &nbsp;·&nbsp; `Security UI`
-
-**Highlights →** real-time telemetry · threat visualization · operator-grade layout · zero-clutter alerting
-
-<a href="https://github.com/Yashwanth-pilli/quantumshield-biodefense-os"><img src="https://img.shields.io/badge/Open%20Repo-00e676?style=for-the-badge&logo=github&logoColor=black" alt="quantum"/></a>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ══════════════════════ FULL VAULT (every repo) ══════════════════════ -->
-<h2 align="center">🗂️ &nbsp;The Full Vault</h2>
-<p align="center"><i>everything I've shipped — nothing hidden</i></p>
-
 <div align="center">
-
-<a href="https://github.com/Yashwanth-pilli/ILLIP-AI">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=ILLIP-AI&theme=react&bg_color=0d1117&title_color=8b7bff&icon_color=8b7bff&border_color=8b7bff" alt="ILLIP-AI"/>
-</a>
-<a href="https://github.com/Yashwanth-pilli/quantumshield-biodefense-os">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=quantumshield-biodefense-os&theme=react&bg_color=0d1117&title_color=00e676&icon_color=00e676&border_color=00e676" alt="QuantumShield"/>
-</a>
-<a href="https://github.com/Yashwanth-pilli/bugbusters">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=bugbusters&theme=react&bg_color=0d1117&title_color=6d5efc&icon_color=6d5efc&border_color=6d5efc&show_owner=true" alt="bugbusters"/>
-</a>
-<a href="https://github.com/Yashwanth-pilli/web_tutor_env">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Yashwanth-pilli&repo=web_tutor_env&theme=react&bg_color=0d1117&title_color=c9d1d9&icon_color=c9d1d9&border_color=c9d1d9&show_owner=true" alt="web_tutor_env"/>
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Yashwanth-pilli?tab=repositories"><img src="https://img.shields.io/badge/See%20All%20Repositories%20%E2%86%92-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="all repos"/></a>
-
+<a href="https://github.com/Yashwanth-pilli?tab=repositories"><img src="https://img.shields.io/badge/%F0%9F%97%BA%EF%B8%8F%20SEE%20ALL%20WORLDS%20%E2%86%92-0d1117?style=for-the-badge&logo=github&logoColor=8b7bff" alt="all"/></a>
 </div>
 
 <br/>
 
-<!-- ══════════════════════ STATS ══════════════════════ -->
-<h2 align="center">📊 &nbsp;The Numbers</h2>
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Yashwanth-pilli&show_icons=true&theme=react&bg_color=0d1117&title_color=8b7bff&icon_color=00e676&text_color=c9d1d9&border_color=8b7bff&include_all_commits=true&count_private=true" alt="stats"/>
-<img height="170" src="https://github-readme-streak-stats.demolab.com?user=Yashwanth-pilli&theme=react&background=0d1117&ring=8b7bff&fire=00e676&currStreakLabel=8b7bff&sideLabels=c9d1d9&dates=8b949e&border=8b7bff" alt="streak"/>
-
-<br/>
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yashwanth-pilli&layout=compact&theme=react&bg_color=0d1117&title_color=8b7bff&text_color=c9d1d9&border_color=8b7bff&langs_count=8" alt="top langs"/>
-
-<br/><br/>
-
-<img width="90%" src="https://github-profile-trophy.vercel.app/?username=Yashwanth-pilli&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=6&title_color=8b7bff&text_color=c9d1d9" alt="trophies"/>
-
-</div>
-
-<br/>
-
-<!-- ══════════════════════ SNAKE ══════════════════════ -->
-<h2 align="center">🐍 &nbsp;My Contributions Eat Themselves</h2>
+<!-- ══════════════════════ THE SERPENT (snake) ══════════════════════ -->
+<h2 align="center">🐍 &nbsp;THE SERPENT EATS MY COMMITS</h2>
 
 <div align="center">
 
@@ -187,14 +186,30 @@ const yashwanth = {
 
 <br/>
 
+<!-- ══════════════════════ ACHIEVEMENTS ══════════════════════ -->
+<h2 align="center">🏆 &nbsp;ACHIEVEMENTS UNLOCKED</h2>
+
+<div align="center">
+
+![a1](https://img.shields.io/badge/%F0%9F%94%92%20Ships%20Offline%20AI-8b7bff?style=for-the-badge&labelColor=0d1117)
+![a2](https://img.shields.io/badge/%F0%9F%A7%A0%20Built%20an%20Agent%20Crew-6d5efc?style=for-the-badge&labelColor=0d1117)
+![a3](https://img.shields.io/badge/%F0%9F%9B%A1%EF%B8%8F%20Cyber%20War%20Room-00e676?style=for-the-badge&labelColor=0d1117)
+<br/>
+![a4](https://img.shields.io/badge/%E2%98%81%EF%B8%8F%20No%20Cloud%20Leash-8b7bff?style=for-the-badge&labelColor=0d1117)
+![a5](https://img.shields.io/badge/%F0%9F%92%BE%201.6B%20Free%20Tokens%2Fmo-6d5efc?style=for-the-badge&labelColor=0d1117)
+![a6](https://img.shields.io/badge/%E2%9A%A1%20Runs%20on%20a%20Laptop-00e676?style=for-the-badge&labelColor=0d1117)
+
+</div>
+
+<br/>
+
 <!-- ══════════════════════ FOOTER ══════════════════════ -->
 <div align="center">
 
 ### 💬 &nbsp;Let's build something that doesn't need the cloud
 
-<a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/Say%20Hi-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="say hi"/></a>
-<a href="https://github.com/Yashwanth-pilli"><img src="https://img.shields.io/badge/Follow-0d1117?style=for-the-badge&logo=github&logoColor=8b7bff" alt="follow"/></a>
+<a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+<a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/SAY%20HI-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="hi"/></a>
 
 <br/><br/>
 
