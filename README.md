@@ -17,6 +17,7 @@
 
 <!-- quick badges row -->
 <img src="https://komarev.com/ghpvc/?username=Yashwanth-pilli&label=Profile%20Views&color=8b7bff&style=for-the-badge" alt="views"/>
+<a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
 <a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/Email-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 <a href="https://github.com/Yashwanth-pilli?tab=repositories"><img src="https://img.shields.io/badge/Repos-0d1117?style=for-the-badge&logo=github&logoColor=8b7bff" alt="repos"/></a>
 
@@ -164,6 +165,7 @@ const yashwanth = {
 
 ### 💬 &nbsp;Let's build something that doesn't need the cloud
 
+<a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
 <a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/Say%20Hi-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="say hi"/></a>
 <a href="https://github.com/Yashwanth-pilli"><img src="https://img.shields.io/badge/Follow-0d1117?style=for-the-badge&logo=github&logoColor=8b7bff" alt="follow"/></a>
 
