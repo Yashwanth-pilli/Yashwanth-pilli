@@ -127,6 +127,27 @@ A real-time **cybersecurity dashboard** — mission-control for biodefense threa
 <!-- WORLDS 3+ are auto-generated from your repos by .github/workflows/update-repos.yml -->
 <!-- Do not hand-edit between the markers below; the workflow overwrites it. -->
 <!-- AUTO-REPOS:START -->
+<h3 align="center">🚀 MORE PROJECTS</h3>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top" align="center">
+
+### 🌍 &nbsp;Yashwanth-pilli.github.io
+
+_no description yet_
+
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=8b7bff&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=8b7bff&labelColor=0d1117" alt="commit"/>
+
+<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+
+</td>
+<td width="50%"></td>
+</tr>
+</table>
+
+<br/>
+
 <h3 align="center">🍴 FORKS &amp; EXPERIMENTS</h3>
 
 <table width="100%">
@@ -167,12 +188,11 @@ _no description yet_
 <h2 align="center">📡 &nbsp;RECENT ACTIVITY</h2>
 
 <!-- AUTO-ACTIVITY:START -->
-- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _just now_
-- ⭐ starred `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _1h ago_
-- ✨ created branch in `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _1h ago_
-- 🔨 pushed to `Yashwanth-pilli/ILLIP-AI` &nbsp;·&nbsp; _13h ago_
+- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _2h ago_
+- ✨ created branch in `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _10h ago_
+- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _10h ago_
 
-<sub>⟳ auto-refreshed 12 Jul 2026, 08:43 UTC</sub>
+<sub>⟳ auto-refreshed 12 Jul 2026, 19:12 UTC</sub>
 <!-- AUTO-ACTIVITY:END -->
 
 <br/>
@@ -183,11 +203,11 @@ _no description yet_
 <!-- AUTO-STATS:START -->
 <div align="center">
 
-![Public%20Repos](https://img.shields.io/badge/Public%20Repos-5-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%203-00e676?style=for-the-badge&labelColor=0d1117)
+![Public%20Repos](https://img.shields.io/badge/Public%20Repos-6-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%203-00e676?style=for-the-badge&labelColor=0d1117)
 
 **Top languages across my repos**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-1%20repo-8b7bff?style=for-the-badge&labelColor=0d1117) ![Python](https://img.shields.io/badge/Python-1%20repo-00e676?style=for-the-badge&labelColor=0d1117)
+![HTML](https://img.shields.io/badge/HTML-1%20repo-8b7bff?style=for-the-badge&labelColor=0d1117) ![JavaScript](https://img.shields.io/badge/JavaScript-1%20repo-00e676?style=for-the-badge&labelColor=0d1117) ![Python](https://img.shields.io/badge/Python-1%20repo-6d5efc?style=for-the-badge&labelColor=0d1117)
 
 </div>
 <!-- AUTO-STATS:END -->
