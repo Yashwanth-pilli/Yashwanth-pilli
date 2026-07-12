@@ -2,16 +2,11 @@ name: Auto-update repos on profile
 
 on:
   schedule:
-    # every 2 hours — redundant ticks so a skipped one leaves no gap. Runs 24/7.
-    - cron: "0 */2 * * *"
+    # gentle: twice a day. Enough to stay current + keep the schedule alive,
+    # without looking like automated abuse to GitHub.
+    - cron: "0 6,18 * * *"
   workflow_dispatch:          # run manually anytime
-  push:
-    branches: [main]
-    paths:
-      - ".github/scripts/update_repos.py"
-      - ".github/workflows/update-repos.yml"
 
-# never let two runs push at once
 concurrency:
   group: profile-refresh
   cancel-in-progress: false
@@ -34,35 +29,18 @@ jobs:
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           gen() { python .github/scripts/update_repos.py; }
-
           gen
           if git diff --quiet -- README.md; then
             echo "no changes"; exit 0
           fi
-
-          for attempt in 1 2 3 4; do
+          for attempt in 1 2 3; do
             git add README.md
             git commit -m "auto: refresh profile (repos/activity/stats)" || true
-            if git push; then
-              echo "pushed on attempt $attempt"; exit 0
-            fi
-            echo "push rejected; syncing to latest and regenerating (attempt $attempt)"
+            if git push; then echo "pushed on attempt $attempt"; exit 0; fi
             git fetch origin main
-            git reset --hard origin/main   # clean slate from latest
-            gen                            # regenerate from live data on top of latest
-            if git diff --quiet -- README.md; then
-              echo "nothing to update after sync"; exit 0
-            fi
+            git reset --hard origin/main
+            gen
+            if git diff --quiet -- README.md; then echo "in sync"; exit 0; fi
           done
-          echo "could not push after retries; will self-heal next run"; exit 0
-
-      # Guarantees GitHub never disables this scheduled workflow (the 60-day rule).
-      # Belt-and-suspenders on top of the timestamp commit above.
-      - name: Keep the schedule alive forever
-        if: always()
-        continue-on-error: true
-        uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          use_api: true
+          echo "will self-heal next run"; exit 0
