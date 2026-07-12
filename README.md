@@ -19,7 +19,7 @@
 <img src="https://komarev.com/ghpvc/?username=Yashwanth-pilli&label=PLAYERS%20MET&color=8b7bff&style=for-the-badge" alt="views"/>
 <img src="https://img.shields.io/github/followers/Yashwanth-pilli?label=FOLLOWERS&style=for-the-badge&color=6d5efc&labelColor=0d1117&logo=github" alt="followers"/>
 <a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/EMAIL-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+<a href="mailto:yashwanthpilli2005@gmail.com"><img src="https://img.shields.io/badge/EMAIL-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
 
 </div>
 
@@ -232,7 +232,7 @@ _no description yet_
 ### 💬 &nbsp;Let's build something that doesn't need the cloud
 
 <a href="https://www.linkedin.com/in/yashwanth-pilli-553b75342/"><img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
-<a href="mailto:yashwanthdharantejillip@gmail.com"><img src="https://img.shields.io/badge/SAY%20HI-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="hi"/></a>
+<a href="mailto:yashwanthpilli2005@gmail.com"><img src="https://img.shields.io/badge/SAY%20HI-8b7bff?style=for-the-badge&logo=gmail&logoColor=white" alt="hi"/></a>
  
 <br/><br/>
 
