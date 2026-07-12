@@ -81,53 +81,48 @@ LCK ████████░░  ships on first try (mostly)
 
 <br/>
 
-<!-- WORLD 1 -->
-<div align="center">
+<p align="center"><b>★ FEATURED ★</b></p>
 
-### 🟣 &nbsp;WORLD 1 — ILLIP&nbsp;AI
+<table width="100%">
+<tr>
+<td width="50%" valign="top" align="center">
+
+### 🟣 ILLIP&nbsp;AI
 
 **`your AI company, in your device`**
 
-An entire AI company that lives inside one laptop — chat, an autonomous **agent crew**, long-term **memory**, a governance gate that asks before it acts, and a **model store sized to your exact hardware**. Runs fully offline on Ollama; flip `/cloud on` for free big-model power. Not a wrapper — a world.
+An entire AI company inside one laptop — chat, an autonomous **agent crew**, long-term **memory**, a governance gate, and a **model store sized to your hardware**. Fully offline on Ollama; `/cloud on` for free big-model power. Not a wrapper.
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=fff)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=fff)
 ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61dafb)
-![Ollama](https://img.shields.io/badge/Ollama-000?style=flat-square&logo=ollama&logoColor=fff)
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/>
-<img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/>
-<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
-<img src="https://img.shields.io/github/languages/code-size/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=8b7bff&labelColor=0d1117" alt="size"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/ILLIP-AI?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
 
 <a href="https://github.com/Yashwanth-pilli/ILLIP-AI"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER%20WORLD-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
-</div>
+</td>
+<td width="50%" valign="top" align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:8b7bff,100:00e676&height=2&section=header" alt="divider"/>
-
-<!-- WORLD 2 -->
-<div align="center">
-
-### 🟢 &nbsp;WORLD 2 — QuantumShield&nbsp;BioDefense&nbsp;OS
+### 🟢 QuantumShield&nbsp;OS
 
 **`live cyber command center`**
 
-A real-time **cybersecurity dashboard** — mission-control for biodefense threat monitoring. Live telemetry, alert surfaces, operator-grade layout. Looks like the war room from a hacker film, and actually updates in real time.
+A real-time **cybersecurity dashboard** — mission-control for biodefense threat monitoring. Live telemetry, alert surfaces, operator-grade layout. Looks like a hacker-film war room, and actually updates live.
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=000)
 ![Dashboard](https://img.shields.io/badge/Live%20Dashboard-00e676?style=flat-square&logo=grafana&logoColor=000)
-![Security](https://img.shields.io/badge/Security%20UI-ff1744?style=flat-square&logo=hackthebox&logoColor=fff)
+![Security](https://img.shields.io/badge/Security-ff1744?style=flat-square&logo=hackthebox&logoColor=fff)
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/>
-<img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/>
-<img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/quantumshield-biodefense-os?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
 
 <a href="https://github.com/Yashwanth-pilli/quantumshield-biodefense-os"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER%20WORLD-00e676?style=for-the-badge&logo=github&logoColor=black" alt="enter"/></a>
 
-</div>
+</td>
+</tr>
+</table>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:00e676,100:6d5efc&height=2&section=header" alt="divider"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:8b7bff,50:00e676,100:6d5efc&height=2&section=header" alt="divider"/>
 
 <!-- WORLDS 3+ are auto-generated from your repos by .github/workflows/update-repos.yml -->
 <!-- Do not hand-edit between the markers below; the workflow overwrites it. -->
