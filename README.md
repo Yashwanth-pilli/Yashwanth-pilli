@@ -133,16 +133,26 @@ A real-time **cybersecurity dashboard** — mission-control for biodefense threa
 <tr>
 <td width="50%" valign="top" align="center">
 
+### 🌍 &nbsp;ILLIP
+
+Your AI company, in your device. Local-first AI platform: chat, agent crew, memory, and a model store sized to your hardware - from 4GB laptops to big GPUs. One-click setup, fully private.
+
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/ILLIP?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/ILLIP?style=flat-square&color=8b7bff&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/ILLIP?style=flat-square&color=8b7bff&labelColor=0d1117" alt="commit"/>
+
+<a href="https://github.com/Yashwanth-pilli/ILLIP"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+
+</td>
+<td width="50%" valign="top" align="center">
+
 ### 🌍 &nbsp;Yashwanth-pilli.github.io
 
 _no description yet_
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=8b7bff&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=8b7bff&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=8b7bff&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=00e676&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-8b7bff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00e676?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 
@@ -188,11 +198,14 @@ _no description yet_
 <h2 align="center">📡 &nbsp;RECENT ACTIVITY</h2>
 
 <!-- AUTO-ACTIVITY:START -->
-- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _1d ago_
-- ✨ created branch in `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _1d ago_
-- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _1d ago_
+- ✨ created branch in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _1h ago_
+- 🔨 pushed to `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _1h ago_
+- 🔀 opened a PR in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _1h ago_
+- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _2d ago_
+- ✨ created branch in `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _2d ago_
+- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _2d ago_
 
-<sub>⟳ auto-refreshed 14 Jul 2026, 08:18 UTC</sub>
+<sub>⟳ auto-refreshed 14 Jul 2026, 19:27 UTC</sub>
 <!-- AUTO-ACTIVITY:END -->
 
 <br/>
@@ -203,7 +216,7 @@ _no description yet_
 <!-- AUTO-STATS:START -->
 <div align="center">
 
-![Public%20Repos](https://img.shields.io/badge/Public%20Repos-6-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%203-00e676?style=for-the-badge&labelColor=0d1117)
+![Public%20Repos](https://img.shields.io/badge/Public%20Repos-6-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%204-00e676?style=for-the-badge&labelColor=0d1117)
 
 **Top languages across my repos**
 
