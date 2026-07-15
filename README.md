@@ -198,14 +198,14 @@ _no description yet_
 <h2 align="center">📡 &nbsp;RECENT ACTIVITY</h2>
 
 <!-- AUTO-ACTIVITY:START -->
-- ✨ created branch in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _14h ago_
-- 🔨 pushed to `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _14h ago_
-- 🔀 opened a PR in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _14h ago_
-- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _2d ago_
-- ✨ created branch in `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _2d ago_
-- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli` &nbsp;·&nbsp; _2d ago_
+- 🔨 pushed to `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _57m ago_
+- ⭐ starred `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _7h ago_
+- 🔀 closed a PR in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _1d ago_
+- 🔀 merged a PR in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _8h ago_
+- ✨ created branch in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _1d ago_
+- 🔀 opened a PR in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _1d ago_
 
-<sub>⟳ auto-refreshed 15 Jul 2026, 08:23 UTC</sub>
+<sub>⟳ auto-refreshed 15 Jul 2026, 19:19 UTC</sub>
 <!-- AUTO-ACTIVITY:END -->
 
 <br/>
@@ -216,7 +216,7 @@ _no description yet_
 <!-- AUTO-STATS:START -->
 <div align="center">
 
-![Public%20Repos](https://img.shields.io/badge/Public%20Repos-6-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%204-00e676?style=for-the-badge&labelColor=0d1117)
+![Public%20Repos](https://img.shields.io/badge/Public%20Repos-6-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%205-00e676?style=for-the-badge&labelColor=0d1117)
 
 **Top languages across my repos**
 
