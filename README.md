@@ -144,26 +144,26 @@ Your AI company, in your device. Local-first AI platform: chat, agent crew, memo
 </td>
 <td width="50%" valign="top" align="center">
 
-### 🌍 &nbsp;Yashwanth-pilli.github.io
+### 🌍 &nbsp;hh-goa-2026-frame
 
 _no description yet_
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=00e676&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=00e676&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00e676?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/hh-goa-2026-frame"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00e676?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
 
-### 🌍 &nbsp;hh-goa-2026-frame
+### 🌍 &nbsp;Yashwanth-pilli.github.io
 
 _no description yet_
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=6d5efc&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=6d5efc&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=6d5efc&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=6d5efc&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/hh-goa-2026-frame"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-6d5efc?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-6d5efc?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
 <td width="50%"></td>
@@ -212,11 +212,11 @@ _no description yet_
 <h2 align="center">📡 &nbsp;RECENT ACTIVITY</h2>
 
 <!-- AUTO-ACTIVITY:START -->
-- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _11h ago_
-- 🔨 pushed to `Yashwanth-pilli/hh-goa-2026-frame` &nbsp;·&nbsp; _17d ago_
-- ✨ created branch in `Yashwanth-pilli/hh-goa-2026-frame` &nbsp;·&nbsp; _18d ago_
+- 🔨 pushed to `Yashwanth-pilli/hh-goa-2026-frame` &nbsp;·&nbsp; _5h ago_
+- 🔨 pushed to `Yashwanth-pilli/Yashwanth-pilli.github.io` &nbsp;·&nbsp; _1d ago_
+- ✨ created branch in `Yashwanth-pilli/hh-goa-2026-frame` &nbsp;·&nbsp; _19d ago_
 
-<sub>⟳ auto-refreshed 26 Aug 2026, 06:57 UTC</sub>
+<sub>⟳ auto-refreshed 26 Aug 2026, 19:52 UTC</sub>
 <!-- AUTO-ACTIVITY:END -->
 
 <br/>
