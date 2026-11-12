@@ -144,39 +144,53 @@ Your AI company, in your device. Local-first AI platform: chat, agent crew, memo
 </td>
 <td width="50%" valign="top" align="center">
 
-### 🌍 &nbsp;hh-goa-2026-frame
+### 🌍 &nbsp;VoxScript-AI
 
 _no description yet_
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=00e676&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/VoxScript-AI?style=flat-square&color=00e676&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/VoxScript-AI?style=flat-square&color=00e676&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/VoxScript-AI?style=flat-square&color=00e676&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/hh-goa-2026-frame"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00e676?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/VoxScript-AI"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00e676?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" align="center">
 
+### 🌍 &nbsp;hh-goa-2026-frame
+
+_no description yet_
+
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=6d5efc&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/hh-goa-2026-frame?style=flat-square&color=6d5efc&labelColor=0d1117" alt="commit"/>
+
+<a href="https://github.com/Yashwanth-pilli/hh-goa-2026-frame"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-6d5efc?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+
+</td>
+<td width="50%" valign="top" align="center">
+
 ### 🌍 &nbsp;Yashwanth-pilli.github.io
 
 _no description yet_
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=6d5efc&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=6d5efc&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=6d5efc&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=ff9100&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=ff9100&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/Yashwanth-pilli.github.io?style=flat-square&color=ff9100&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-6d5efc?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/Yashwanth-pilli.github.io"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-ff9100?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" align="center">
 
 ### 🌍 &nbsp;sarvee-dental-hospital
 
 _no description yet_
 
-<img src="https://img.shields.io/github/stars/Yashwanth-pilli/sarvee-dental-hospital?style=flat-square&color=ff9100&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/sarvee-dental-hospital?style=flat-square&color=ff9100&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/sarvee-dental-hospital?style=flat-square&color=ff9100&labelColor=0d1117" alt="commit"/>
+<img src="https://img.shields.io/github/stars/Yashwanth-pilli/sarvee-dental-hospital?style=flat-square&color=00b0ff&labelColor=0d1117&logo=github" alt="stars"/> <img src="https://img.shields.io/github/languages/top/Yashwanth-pilli/sarvee-dental-hospital?style=flat-square&color=00b0ff&labelColor=0d1117" alt="lang"/> <img src="https://img.shields.io/github/last-commit/Yashwanth-pilli/sarvee-dental-hospital?style=flat-square&color=00b0ff&labelColor=0d1117" alt="commit"/>
 
-<a href="https://github.com/Yashwanth-pilli/sarvee-dental-hospital"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-ff9100?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
+<a href="https://github.com/Yashwanth-pilli/sarvee-dental-hospital"><img src="https://img.shields.io/badge/%E2%96%B6%20ENTER-00b0ff?style=for-the-badge&logo=github&logoColor=white" alt="enter"/></a>
 
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
@@ -222,14 +236,14 @@ _no description yet_
 <h2 align="center">📡 &nbsp;RECENT ACTIVITY</h2>
 
 <!-- AUTO-ACTIVITY:START -->
-- ⭐ starred `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _3d ago_
+- ⭐ starred `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _4d ago_
 - 🔨 pushed to `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _12d ago_
 - ⭐ starred `apk-editor/APK-Explorer-Editor` &nbsp;·&nbsp; _11d ago_
 - 🚀 released in `Yashwanth-pilli/ILLIP` &nbsp;·&nbsp; _12d ago_
-- 🔨 pushed to `manitejakanuri1/prooflaab` &nbsp;·&nbsp; _16d ago_
-- ✨ created branch in `manitejakanuri1/prooflaab` &nbsp;·&nbsp; _16d ago_
+- 🔨 pushed to `manitejakanuri1/prooflaab` &nbsp;·&nbsp; _17d ago_
+- ✨ created branch in `manitejakanuri1/prooflaab` &nbsp;·&nbsp; _17d ago_
 
-<sub>⟳ auto-refreshed 11 Nov 2026, 13:54 UTC</sub>
+<sub>⟳ auto-refreshed 12 Nov 2026, 00:20 UTC</sub>
 <!-- AUTO-ACTIVITY:END -->
 
 <br/>
@@ -240,11 +254,11 @@ _no description yet_
 <!-- AUTO-STATS:START -->
 <div align="center">
 
-![Public%20Repos](https://img.shields.io/badge/Public%20Repos-8-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%2033-00e676?style=for-the-badge&labelColor=0d1117)
+![Public%20Repos](https://img.shields.io/badge/Public%20Repos-9-8b7bff?style=for-the-badge&labelColor=0d1117) ![Total%20Stars](https://img.shields.io/badge/Total%20Stars-%E2%98%85%2034-00e676?style=for-the-badge&labelColor=0d1117)
 
 **Top languages across my repos**
 
-![HTML](https://img.shields.io/badge/HTML-2%20repos-8b7bff?style=for-the-badge&labelColor=0d1117) ![CSS](https://img.shields.io/badge/CSS-1%20repo-00e676?style=for-the-badge&labelColor=0d1117) ![JavaScript](https://img.shields.io/badge/JavaScript-1%20repo-6d5efc?style=for-the-badge&labelColor=0d1117) ![Python](https://img.shields.io/badge/Python-1%20repo-ff9100?style=for-the-badge&labelColor=0d1117)
+![HTML](https://img.shields.io/badge/HTML-2%20repos-8b7bff?style=for-the-badge&labelColor=0d1117) ![CSS](https://img.shields.io/badge/CSS-1%20repo-00e676?style=for-the-badge&labelColor=0d1117) ![JavaScript](https://img.shields.io/badge/JavaScript-1%20repo-6d5efc?style=for-the-badge&labelColor=0d1117) ![Python](https://img.shields.io/badge/Python-1%20repo-ff9100?style=for-the-badge&labelColor=0d1117) ![TypeScript](https://img.shields.io/badge/TypeScript-1%20repo-00b0ff?style=for-the-badge&labelColor=0d1117)
 
 </div>
 <!-- AUTO-STATS:END -->
